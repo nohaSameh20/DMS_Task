@@ -1,0 +1,12 @@
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\bin\Debug\netcoreapp3.1\DMS.Application.deps.json
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\bin\Debug\netcoreapp3.1\DMS.Application.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\bin\Debug\netcoreapp3.1\DMS.Application.pdb
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\bin\Debug\netcoreapp3.1\DMS.Domain.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\bin\Debug\netcoreapp3.1\DMS.Domain.pdb
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.AssemblyInfo.cs
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.csproj.CopyComplete
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Application\obj\Debug\netcoreapp3.1\DMS.Application.pdb
