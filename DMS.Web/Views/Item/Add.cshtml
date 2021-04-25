@@ -1,0 +1,93 @@
+﻿@model DMS.Application.Items.Commands.AddItemModel;
+@using Microsoft.AspNetCore.Http;
+@using  Newtonsoft.Json;
+@{
+    ViewData["Title"] = "Add";
+}
+
+@{
+    IFormFile ImageUploader = TempData["ImageUpload"] as IFormFile;
+}
+<style>
+    form.user .form-control {
+        background: #e6edf3;
+    }
+
+    #wrapper #content-wrapper {
+        background: none
+    }
+
+    label {
+        color: #266cc7
+    }
+</style>
+
+<div class="card o-hidden border-0 shadow-lg my-5">
+    <div class="card-body p-0">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="p-5">
+                    <div class="text-center">
+                        <h1 class="h4 text-gray-900 mb-4">Add New Item</h1>
+                    </div>
+                    <form class="user" method="post" enctype="multipart/form-data">
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Name:</label>
+
+                                <input type="text" asp-for="@Model.Name" class="form-control" placeholder="Enter Item Name.." required>
+                                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Description:</label>
+
+                                <input type="text" asp-for="@Model.Description" class="form-control " placeholder="Enter Item Description.." required>
+                                <span asp-validation-for="@Model.Description" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Price:</label>
+
+                                <input type="number" style="background-color: #f7f7f9;" id="inputPassword" asp-for="@Model.Price " class="form-control ">
+                                <span asp-validation-for="@Model.Price " class="text-danger"></span>
+                            </div>
+
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Quantity:</label>
+                                <input type="number" style="background-color: #f7f7f9;" id="inputPassword" asp-for="@Model.QTY" class="form-control"  required>
+                                <span asp-validation-for="@Model.QTY" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Unit Of Measure:</label>
+
+                                <input type="text" style="background-color: #f7f7f9;" id="inputPassword" asp-for="@Model.UOM" class="form-control " placeholder="Enter Unit Of Measure ..">
+                                <span asp-validation-for="@Model.UOM" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-sm-6 mb-6 mb-sm-6 ">
+                                <label>Upload Image:</label>
+
+                                <input type="file" asp-for="@ImageUploader" />
+                            </div>
+                        </div>
+
+                        <button style="margin-top:40px" type="submit" class="btn btn-primary btn-user btn-block">
+                            Add
+                        </button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

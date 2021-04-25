@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+6qdp3C5mykm6oHjpjNyyBMf7yAEbMYcmBkdCRp7ccNsDbg912ZJvQXavzAtFdwCGyVC08cIRqLHUoREGSOheA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Noha\\source\\repos\\DMS_Technical_Task\\DMS.Domain\\DMS.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Noha\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

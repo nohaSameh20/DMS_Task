@@ -1,0 +1,17 @@
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Persistence.deps.json
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Persistence.runtimeconfig.json
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Persistence.runtimeconfig.dev.json
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Persistence.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Persistence.pdb
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Application.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Domain.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Application.pdb
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\bin\Debug\netcoreapp3.1\DMS.Domain.pdb
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.AssemblyInfo.cs
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.csproj.CopyComplete
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.dll
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.pdb
+C:\Users\Noha\source\repos\DMS_Technical_Task\DMS.Persistence\obj\Debug\netcoreapp3.1\DMS.Persistence.genruntimeconfig.cache

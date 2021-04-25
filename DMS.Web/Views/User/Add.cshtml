@@ -1,0 +1,107 @@
+﻿@model Application.Users.AddUserModel;
+@using Microsoft.AspNetCore.Http;
+@using  Newtonsoft.Json;
+@using  VHR.Enum;
+@{
+    ViewData["Title"] = "Add";
+    Layout = "/Views/Shared/_AnonymousLayout.cshtml";
+}
+ 
+<style>
+    form.user .form-control {
+        background: #e6edf3;
+    }
+
+    #wrapper #content-wrapper {
+        background: none
+    }
+
+    label {
+        color: #266cc7
+    }
+</style>
+
+<div class="card o-hidden border-0 shadow-lg my-5">
+    <div class="card-body p-0">
+        <!-- Nested Row within Card Body -->
+        <div class="row">
+            @*<div class="col-lg-5 d-none d-lg-block bg-register-image"></div>*@
+            <div class="col-lg-12">
+                <div class="p-5">
+                    <div class="text-center">
+                        <h1 class="h4 text-gray-900 mb-4">Create Account</h1>
+                    </div>
+                    <form class="user" method="post" enctype="multipart/form-data">
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Email:</label>
+
+                                <input type="email" asp-for="@Model.Email" class="form-control" placeholder="Enter Email.." required>
+                                <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                            </div>
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>User Name:</label>
+
+                                <input type="text" asp-for="@Model.Name" class="form-control " placeholder="Enter Name.." required>
+                                <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Phone Number:</label>
+
+                                <input type="text" style="background-color: #f7f7f9;" id="inputPassword" asp-for="@Model.PhoneNumber " class="form-control " placeholder="Enter Phone Number..">
+                                <span asp-validation-for="@Model.PhoneNumber " class="text-danger"></span>
+                            </div>
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Choose Role:</label>
+                                <select asp-for="@Model.UserRole" asp-items="Html.GetEnumSelectList<UserRole>()" class="form-control">
+                                    <option selected disabled>Select Role</option>
+                                </select>
+                                <span asp-validation-for="@Model.UserRole" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Password:</label>
+
+                                <input type="text" style="background-color: #f7f7f9;" id="inputPassword" asp-for="@Model.Password " class="form-control " placeholder="Enter Password..">
+                                <span asp-validation-for="@Model.Password " class="text-danger"></span>
+                            </div>
+                            <div class="col-sm-6 mb-6 mb-sm-6">
+                                <label>Confirm Password:</label>
+
+                                <input type="text" style="background-color: #f7f7f9;" id="inputPassword" asp-for="@Model.ConfirmPassword " class="form-control " placeholder="Confirm Password..">
+                                <span asp-validation-for="@Model.ConfirmPassword " class="text-danger"></span>
+                            </div>
+                        </div>
+
+
+                        <button style="margin-top:40px" type="submit" class="btn btn-primary btn-user btn-block">
+                            Register
+                        </button>
+
+
+                    </form>
+                    <hr>
+                    <div class="text-center">
+                        <a class="small" href="forgot-password.html">Forgot Password?</a>
+                    </div>
+                    <div class="text-center">
+                        <a class="small" href="login.html">Already have an account? Login!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/js/popper.js"></script>
+

@@ -1,0 +1,29 @@
+﻿@model List<DMS.Application.Items.GetItemsQueryResult>
+@{
+    ViewData["Title"] = "View Items";
+}
+@{int i = 1;}
+
+<div class="wrapper">
+    <div class="container">
+        <div class="row g-1">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        
+                        <div class="text-center"> <img src="data:image/png;base64,@item.Image" width="200"> </div>
+                        <div class="product-details">
+                            <span class="font-weight-bold d-block">@item.Name</span> <span>@item.Description</span>
+                            <div class="buttons d-flex flex-row">
+                                <div class="cart"></div> <button class="btn btn-success cart-button btn-block" ><a asp-route-Id="@item.Id"  asp-action="AddToCart"><i class="fa fa-shopping-cart"></i>Add to cart </a></button>
+                            </div>
+                            <div class="weight"> <small>@item.QTY piece @item.Price $ @item.UOM</small> </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            </div>
+    </div>
+</div>
+
